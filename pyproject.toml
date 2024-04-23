@@ -13,6 +13,7 @@ python = "^3.12"
 commitizen = "^3.24.0"
 pytest = "^8.1.1"
 pytest-watcher = "^0.4.2"
+pytest-mock = "^3.14.0"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
@@ -25,3 +26,6 @@ change_type_map = { feat = "Features", fix = "Bug fixes" }
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."commitizen.provider"]
+commitizen-xcodeproj = "commitizen_xcodeproj.xcodeproj_version_provider:XcodeprojVersionProvider"
