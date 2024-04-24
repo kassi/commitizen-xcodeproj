@@ -1,3 +1,9 @@
+## 0.2.0 (2024-04-24)
+
+### Features
+
+- add configurable option to fill short versions from left
+
 ## 0.1.1 (2024-04-24)
 
 ### Bug fixes
