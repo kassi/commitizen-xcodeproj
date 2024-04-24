@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "commitizen_xcodeproj", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
 commitizen = "^3.24.0"
