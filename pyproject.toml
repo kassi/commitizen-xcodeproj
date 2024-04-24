@@ -8,6 +8,7 @@ packages = [{include = "commitizen_xcodeproj", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+deepmerge = "^1.1.1"
 
 [tool.poetry.group.dev.dependencies]
 commitizen = "^3.24.0"

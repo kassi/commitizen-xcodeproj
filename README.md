@@ -25,6 +25,16 @@ In your Lightroom plug-in source folder, create a `.cz.yaml`:
 
 Note: it's not necessary to include a `version` key inside the config file. Best practice is to keep the version in a single source of truth, which is the `project.pbxproj` file.
 
+By default, short version numbers are filled with ".0" on the right,
+thus 1.0 becoming 1.0.0. This can be configured:
+
+    ---
+    commitizen:
+      commitizen_xcodeproj:
+        fill_missing: left
+
+will transform 1.0 to 0.1.0.
+
 ### Bumping versions
 
 Now
