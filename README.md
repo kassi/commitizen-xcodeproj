@@ -13,7 +13,7 @@ A commitizen version provider for Xcode project files, which store the version i
 There are several ways to configure commitizen.
 This example setup uses a local installation of commitizen via python and works  with `yaml` configuration files, but any other format as stated in the commitizen documentation works as well.
 
-In your Lightroom plug-in source folder, create a `.cz.yaml`:
+In your Xcode project root folder, create a `.cz.yaml`:
 
     ---
     commitizen:
